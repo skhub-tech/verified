@@ -1,19 +1,25 @@
-[Base Update] `v383.1.0.48.78  
+🚀 Update V14.19-stable is Here! 🚀
 
 ✨ What's New & Improved:
 
-🆕 Added:
-• Download Reel Cover Image 🖼️  
-• Added secret menu option 😁
-• Added iOS emojies 2025 and Twitter emoji 
-⚙️ Features:
-• Enabled Hidden Features 🔓  
-
-✅ Fixes:
-• Crash on Long Click in Messages 💬❌ 
-• Story Auto-skip issue resolved 📖⏭️  
-• Download for Multiple Posts** now working smoothly 📥📸  
-• Fixed Random Crashes for a more stable experience 🛠️  
-
-🔧 Misc:
-• Many more improvements under the hood ⚙️
+💯Fixed crashing almost 🥲
+🎈 Mention tag new look 
+🧹 Clear activity history
+🔁 Repost Story & Reels
+📤 Share to WhatsApp
+📱 Open in phone app
+👁️ Story preview
+⚙️ Long-press header
+🚫 Hide mentions list
+🏷️ Copy caption (no hashtags)
+🏠 Classic home button
+⬛ Bold bottom tabs
+🚫 Disable follow on Reels
+🔃 Move post buttons
+📺 Enable PIP
+🖼️ Carousel layout options
+🔍 Zoom photos (long press)
+⏸️ Disable tap-to-pause
+✅ Verified Blue Tick Server      
+   Updated to 3.0
+━━━━━━━━━━━━━━━━━
