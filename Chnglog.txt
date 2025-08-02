@@ -1,7 +1,9 @@
 
-✨ What's New & Improved:
+✨ What's New in 14.20
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-💯Fixed crashing almost 🥲
+🗓️date: 02/08/25
+🔨fixed crash or not opening in android 10,11,12,13 to 15+ 
 👾fixed update showing dialogue ✅
 🎈 Mention tag new look 
 🧹 Clear activity history
@@ -20,6 +22,3 @@
 🖼️ Carousel layout options
 🔍 Zoom photos (long press)
 ⏸️ Disable tap-to-pause
-✅ Verified Blue Tick Server      
-   Updated to 3.0
-━━━━━━━━━━━━━━━━━
