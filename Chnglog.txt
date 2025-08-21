@@ -1,24 +1,7 @@
 
-✨ What's New in 14.20
+✨ What's New in 1.0
 ━━━━━━━━━━━━━━━━━━━━
 
-🗓️date: 02/08/25
+🗓️date: 21/08/25
 🔨fixed crash or not opening in android 10,11,12,13 to 15+ 
 👾fixed update showing dialogue ✅
-🎈 Mention tag new look 
-🧹 Clear activity history
-🔁 Repost Story & Reels
-📤 Share to WhatsApp
-📱 Open in phone app
-👁️ Story preview
-⚙️ Long-press header
-🚫 Hide mentions list
-🏷️ Copy caption (no hashtags)
-🏠 Classic home button
-⬛ Bold bottom tabs
-🚫 Disable follow on Reels
-🔃 Move post buttons
-📺 Enable PIP
-🖼️ Carousel layout options
-🔍 Zoom photos (long press)
-⏸️ Disable tap-to-pause
