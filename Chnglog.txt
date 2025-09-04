@@ -2,6 +2,7 @@
 ✨ What's New in 1.5 ✨
 
 🗓️date: 04/09/25
+💥must uninstall previous instafuse!
 🔨 custom fonts and emojies fixed!
 🔨fixed theme changing issues 
 ☘️Added inbuilt video splitter 
