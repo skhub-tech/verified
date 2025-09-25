@@ -1,12 +1,10 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 2.0 ✨
+✨ What's New in 2.5✨
 
-🗓️date: 15/09/25
+🗓️date: 26/09/25
 💥must uninstall previous instaMax!
 🎊 Multi language support!
 🔨fixed random crashing!
 🔨 custom fonts and emojies fixed!
 🔨fixed theme changing issues 
-☘️Added inbuilt video splitter 
-🔨fixed crash or not opening in android 10,11,12,13 to 15+ 
-👾fixed update showing dialogue ✅
+☘️Added inbuilt video splitter
