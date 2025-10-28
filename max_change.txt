@@ -1,8 +1,9 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 14.25✨
+✨ What's New in 14.30✨
 
-🗓️date: 16/09/25
-💥must uninstall previous instafuse!
+🗓️date: 28/10/25
+Base 397.0.0.46.81
+💥must uninstall previous instaMax
 🔨 custom fonts and emojies fixed!
 🔨fixed theme changing issues 
 ☘️Added inbuilt video splitter 
