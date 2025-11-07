@@ -1,11 +1,11 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 3.0✨
+✨ What's New in 3.0F✨
 
-🗓️date: 06/11/25
+🗓️date: 07/11/25
 💥must uninstall previous InstaFuse!💥
 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
-🎊 Multi language support!
+🎊Added Multi language support!
 🔨fixed random crashing!
 🔨 custom fonts and emojies fixed!
 🔨fixed theme changing issues 
