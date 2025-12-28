@@ -1,11 +1,12 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 3.0F✨
+✨ What's New in 4.0✨
 
-🗓️date: 07/11/25
+🗓️date: 28/12/25
 💥must uninstall previous InstaFuse!💥
 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
 🎊Added Multi language support!
+🔨Base update 408.0.0.51.78
 🔨fixed random crashing!
 🔨 custom fonts and emojies fixed!
 🔨fixed theme changing issues 
