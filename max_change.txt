@@ -1,9 +1,9 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 14.31✨
+✨ What's New in 15.0✨
 
-🗓️date: 07/12/25
-Base 397.0.0.46.81
-💥must uninstall previous instaMax
+🗓️date: 01/01/26
+Base 408.0.0.51.78
+💥 Happy New year 🎊 
 🔨 custom fonts and emojies fixed!
 🔨fixed theme changing issues 
 ☘️Added inbuilt video splitter 
