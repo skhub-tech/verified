@@ -1,14 +1,14 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 4.0Fixed✨
+✨ What's New in 4.1✨
 
-🗓️date: 01/01/26
+🗓️date: 20/02/26
 💥 Happy New year 💥
 
 ☠️Must Uninstall old instafuse 
 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
 🎊Added Multi language support!
-🔨Base update 408.0.0.51.78
+🔨Base update 415.0.0.0.15
 🔨fixed random crashing!
 🔨 custom fonts and emojies fixed!
 🔨fixed theme changing issues 
