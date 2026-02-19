@@ -1,1 +1,1 @@
-15||https://||https://telegram.me/instafuse/103
+16||https://||https://instafuse.vercel.app
