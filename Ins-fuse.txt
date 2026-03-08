@@ -1,1 +1,1 @@
-17||https://||https://instafuse.vercel.app
+18||https://||https://instafuse.vercel.app
