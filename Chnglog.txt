@@ -1,13 +1,13 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
 ✨ What's New in 5.0✨
 
-🗓️date: 30/05/26
+🗓️date: 01/07/26
 
 ☠️Must Uninstall old instafuse 
 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
 🎊Added Multi language support!
-🔨Base update 421.0.0.51.66
+🔨Base update 431.0.0.47.82
 ➕ Added download history 
 🔨fixed random crashing!
 🔨 custom fonts and emojies fixed!
