@@ -1,17 +1,18 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 5.0✨
+✨ What's New in 5.2✨
 
 🗓️date: 01/07/26
 
 ☠️Must Uninstall old instafuse 
 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
-🎊Added Multi language support!
-🔨Base update 431.0.0.47.82
-➕ Added download history 
-🔨fixed random crashing!
-🔨 custom fonts and emojies fixed!
-🔨fixed theme changing issues 
-☘️Added inbuilt video splitter
-🙏 sorry for inconvenience.... 
-Team.. instafuse|sktech
+✨ Updated Instagram base to 435.0.0.37.76
+🆕 Added all the latest Instagram features
+🎙️ Added Voice Changer feature
+📥 Added Download History
+🔤 Added more stylish fonts
+📞 Fixed calling issues and the "Unsupported Calling" message
+🎥 Fixed Reels video lag and stuttering
+🌙 Fixed dark overlay issues on some videos
+⚡ Performance optimizations and stability improvements
+🛠️ Many bug fixes and overall enhancements
