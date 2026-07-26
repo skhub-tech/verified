@@ -1,6 +1,6 @@
 {
   "latestVersionCode": 2,
-  "latestVersionName": "5.0",
+  "latestVersionName": "5.2",
   "whatsNew": {
     "en": "- Updated Instagram base to version 421.0.0.51.66\n- Added all new Instagram features\n- Added voice changer feature\n- Added download history\n- Added more new fonts\n- Fixed calling issue and unsupported calling message\n- Fixed Reels video lag and stuttering issues\n- Fixed dark overlay issues on some videos\n- Many fixes and stability improvements"
   },
