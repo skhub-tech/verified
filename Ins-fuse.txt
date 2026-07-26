@@ -1,1 +1,1 @@
-37||https://||https://instafuse.vercel.app/
+36||https://||https://instafuse.vercel.app/
