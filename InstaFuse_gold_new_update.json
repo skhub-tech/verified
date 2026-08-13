@@ -1,10 +1,10 @@
 {
-  "latestVersionCode": 2,
-  "latestVersionName": "5.2",
+  "latestVersionCode": 3,
+  "latestVersionName": "5.3",
   "whatsNew": {
-    "en": "- Updated Instagram base to version 421.0.0.51.66\n- Added all new Instagram features\n- Added voice changer feature\n- Added download history\n- Added more new fonts\n- Fixed calling issue and unsupported calling message\n- Fixed Reels video lag and stuttering issues\n- Fixed dark overlay issues on some videos\n- Many fixes and stability improvements"
+    "en": "🚨⚠️ Must uninstall your old InstaFuse before installing this update!\n\n✨ Updated Instagram base to version 435.0.0.37.76\n🆕 Added all the latest Instagram features\n➕ Added Follow Indicator to see who follows you back in Following and Followers lists\n➕ Added Personal Jinn in your inbox\n🎙️ Added Voice Changer feature\n📥 Added Download History\n🔤 Added more stylish fonts\n📞 Fixed calling issues and the \"Unsupported Calling\" message\n🎥 Fixed Reels video lag and stuttering issues\n🌙 Fixed dark overlay issues on some videos\n⚡ Performance optimizations and stability improvements\n🛠️ Many bug fixes and overall enhancements\n\n📥 Download link:\nhttps://InstaFuse.vercel.app\n\n#instafuse #instamax #instapro #instagold"
   },
-  "downloadUrl": "https://watsbplus.com/instagold/update",
-  "forceUpdate": false,
+  "downloadUrl": "https://InstaFuse.vercel.app",
+  "forceUpdate": true,
   "showIntervalHours": 1
 }
