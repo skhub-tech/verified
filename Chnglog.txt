@@ -1,18 +1,23 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 5.2✨
+✨ What's New in 5.3 ✨
 
-🗓️date: 01/07/26
+🗓️ Date: 14/08/26
 
-☠️Must Uninstall old instafuse 
+☠️ Must Uninstall Old InstaFuse
 👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
 
 ✨ Updated Instagram base to 435.0.0.37.76
 🆕 Added all the latest Instagram features
+
+➕ Added Follow Indicator to see who follows you back in Following & Followers lists
+🧞 Added Personal Jinn in your inbox
 🎙️ Added Voice Changer feature
 📥 Added Download History
 🔤 Added more stylish fonts
 📞 Fixed calling issues and the "Unsupported Calling" message
-🎥 Fixed Reels video lag and stuttering
+🎥 Fixed Reels video lag and stuttering issues
 🌙 Fixed dark overlay issues on some videos
 ⚡ Performance optimizations and stability improvements
 🛠️ Many bug fixes and overall enhancements
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
