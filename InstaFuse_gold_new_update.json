@@ -5,6 +5,6 @@
     "en": "🚨⚠️ Must uninstall your old InstaFuse before installing this update!\n\n✨ Updated Instagram base to version 435.0.0.37.76\n🆕 Added all the latest Instagram features\n➕ Added Follow Indicator to see who follows you back in Following and Followers lists\n➕ Added Personal Jinn in your inbox\n🎙️ Added Voice Changer feature\n📥 Added Download History\n🔤 Added more stylish fonts\n📞 Fixed calling issues and the \"Unsupported Calling\" message\n🎥 Fixed Reels video lag and stuttering issues\n🌙 Fixed dark overlay issues on some videos\n⚡ Performance optimizations and stability improvements\n🛠️ Many bug fixes and overall enhancements\n\n📥 Download link:\nhttps://InstaFuse.vercel.app\n\n#instafuse #instamax #instapro #instagold"
   },
   "downloadUrl": "https://InstaFuse.vercel.app",
-  "forceUpdate": true,
+  "forceUpdate": false,
   "showIntervalHours": 1
 }
