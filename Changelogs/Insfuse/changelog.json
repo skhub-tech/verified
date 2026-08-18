@@ -1,11 +1,30 @@
 {
   "appName": "InstaFuse",
-  "latestVersion": "v5.3",
+  "latestVersion": "v5.4",
   "downloadUrl": "https://InstaFuse.vercel.app",
   "changelog": [
     {
-      "version": "v5.3",
+      "version": "v5.4",
       "badge": "latest",
+      "base": "Base 439.0.0.38.89",
+      "changes": [
+        {
+          "badge": "new",
+          "text": "Custom Story Font · Image in comments"
+        },
+        {
+          "badge": "add",
+          "text": "Profile Post Download Button · Hidden features unlocked"
+        },
+        {
+          "badge": "fix",
+          "text": "AutoScroll · many random crashes · misc improvements"
+        }
+      ]
+    },
+    {
+      "version": "v5.3",
+      "badge": null,
       "base": "Base 435.0.0.37.76",
       "changes": [
         {
