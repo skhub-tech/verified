@@ -28,7 +28,7 @@
       "changes": [
         {
           "badge": "major",
-          "text": "Must uninstall your old InstaFuse before installing this update"
+           "text": "Must uninstall your old InstaFuse before installing this update"
         },
         {
           "badge": "new",
