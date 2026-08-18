@@ -28,9 +28,6 @@
       --footer-border: rgba(0,0,0,0.06);
       --loading-color: #E1306C;
       --error-color: #c0392b;
-      --download-bg: var(--ig-gradient);
-      --download-shadow: 0 4px 16px rgba(225,48,108,0.25);
-      --download-shadow-hover: 0 6px 24px rgba(225,48,108,0.35);
       --toggle-bg: #e9e9e9;
       --toggle-knob: #ffffff;
       --toggle-active: var(--ig-gradient);
@@ -322,39 +319,7 @@
       border: 1px solid var(--border);
     }
 
-    /* ===== Download Button ===== */
-    .download-section {
-      margin-top: 20px;
-      text-align: center;
-    }
-
-    .download-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: var(--download-bg);
-      color: white;
-      font-size: 16px;
-      font-weight: 600;
-      padding: 14px 36px;
-      border-radius: 40px;
-      text-decoration: none;
-      box-shadow: var(--download-shadow);
-      transition: all 0.2s ease;
-      border: none;
-      cursor: pointer;
-    }
-
-    .download-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--download-shadow-hover);
-    }
-
-    .download-btn:active {
-      transform: translateY(0);
-    }
-
-    /* ===== Footer ===== */
+/* ===== Footer ===== */
     .changelog-footer {
       margin-top: 28px;
       text-align: center;
@@ -396,7 +361,6 @@
       .app-icon { width: 42px; height: 42px; border-radius: 14px; font-size: 22px; }
       .header-right { gap: 10px; }
       .version-badge { font-size: 12px; padding: 5px 14px; }
-      .download-btn { font-size: 15px; padding: 12px 28px; }
     }
 
     @media (max-width: 420px) {
@@ -423,12 +387,6 @@
 
   <div id="versionList">
     <div class="loading">⏳ Loading changelog...</div>
-  </div>
-
-  <div class="download-section">
-    <a href="https://InstaFuse.vercel.app" class="download-btn" target="_blank" rel="noopener">
-      ⬇️ Download Latest Version
-    </a>
   </div>
 
   <div class="changelog-footer">
@@ -494,15 +452,10 @@
   // ================================================================
 
   function renderChangelog(data) {
-    const { appName, latestVersion, changelog, downloadUrl } = data;
+    const { appName, latestVersion, changelog } = data;
 
     document.getElementById('appTitle').textContent = appName;
     document.getElementById('latestBadge').textContent = `${latestVersion} · latest`;
-
-    if (downloadUrl) {
-      const btn = document.querySelector('.download-btn');
-      if (btn) btn.href = downloadUrl;
-    }
 
     const container = document.getElementById('versionList');
     let html = '';
