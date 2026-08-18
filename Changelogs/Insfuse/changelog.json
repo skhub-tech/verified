@@ -1,0 +1,212 @@
+{
+  "appName": "InstaFuse",
+  "latestVersion": "v5.4",
+  "changelog": [
+    {
+      "version": "v5.4",
+      "badge": "latest",
+      "base": "Base 439.0.0.38.89",
+      "changes": [
+        { "badge": "new", "text": "Custom Story Font · Image in comments" },
+        { "badge": "add", "text": "Profile Post Download Button · Hidden features unlocked" },
+        { "badge": "fix", "text": "AutoScroll · many random crashes · misc improvements" }
+      ]
+    },
+    {
+      "version": "v5.3",
+      "badge": null,
+      "base": "Base 397.0.0.46.81",
+      "changes": [
+        { "badge": "major", "text": "Repost stories & reels · share to WhatsApp Status" },
+        { "badge": "add", "text": "Story Thumbnail Size · Upload Time Format · Reel Preview" },
+        { "badge": "add", "text": "Copy Full Name / Username / Profile URL · Pink @ mentions" },
+        { "badge": "add", "text": "InstaFuse Settings (long press header) · Copy text dialog" },
+        { "badge": "add", "text": "Disable Mentions List · Remove Reels Tab · Show Likes Count" },
+        { "badge": "add", "text": "Sync Story Font · Classic Home Button · Fill Bottom Tabs" },
+        { "badge": "add", "text": "Zoom on long tap · Disable tap to pause · Disable double-tap like (all)" },
+        { "badge": "add", "text": "Auto-Scroll Reels · PIP mode · Carousel layout changer" },
+        { "badge": "add", "text": "Remove History Activity · Remove Settings/Telegram icon from header" },
+        { "badge": "fix", "text": "iOS Emoji in story · Fonts · Mark as read · all previous bugs" }
+      ]
+    },
+    {
+      "version": "v5.2",
+      "badge": null,
+      "base": "Base 383.1.0.48.78",
+      "changes": [
+        { "badge": "add", "text": "Relocate Download buttons in feed posts · Media Open By Phone App" },
+        { "badge": "new", "text": "Download Reel Cover Image · More UI mods" },
+        { "badge": "fix", "text": "Msg Long Click crash · Story autoskip · Download Multiple Post" },
+        { "badge": "fix", "text": "Many random crashes · lag/hang problems" }
+      ]
+    },
+    {
+      "version": "v5.1",
+      "badge": null,
+      "base": "Base 370.1.0.43.96",
+      "changes": [
+        { "badge": "add", "text": "Download Reel Cover Image · hidden features enabled" },
+        { "badge": "add", "text": "Export/Import Developer Configs" },
+        { "badge": "imp", "text": "More stable · performance boost" },
+        { "badge": "fix", "text": "Download Button fixed · many random crashes" }
+      ]
+    },
+    {
+      "version": "v5.0",
+      "badge": null,
+      "base": "Base 357.1.0.52.100",
+      "changes": [
+        { "badge": "add", "text": "Disable Activity History · Custom fonts from local storage" },
+        { "badge": "add", "text": "Change app emoji · hide reel info" },
+        { "badge": "fix", "text": "Feed full-screen reel · lag/hang problems" },
+        { "badge": "new", "text": "Redownload Notification" },
+        { "badge": "imp", "text": "More stable · many random crashes fixed" }
+      ]
+    },
+    {
+      "version": "v4.8",
+      "badge": null,
+      "base": "Base 336.0.0.35.90",
+      "changes": [
+        { "badge": "new", "text": "Download reel media sound" },
+        { "badge": "fix", "text": "Lag and hang problem · crash · text color · Share ID" },
+        { "badge": "fix", "text": "Redownload · Download Button · many random crashes" }
+      ]
+    },
+    {
+      "version": "v4.5",
+      "badge": null,
+      "base": "Base 319.0.0.43.110",
+      "changes": [
+        { "badge": "add", "text": "Hide reel info · Disable Activity History" },
+        { "badge": "new", "text": "Redownload Notification" },
+        { "badge": "fix", "text": "Many random crashes · performance improvements" }
+      ]
+    },
+    {
+      "version": "v4.2",
+      "badge": null,
+      "base": "core update",
+      "changes": [
+        { "badge": "major", "text": "Do not mark messages as read · Hide View Stories · Hide typing status" },
+        { "badge": "major", "text": "Save stories, feed images/videos, IGTV videos" },
+        { "badge": "major", "text": "Remove all advertisements · Max quality uploads" },
+        { "badge": "major", "text": "Translate (Google/Yandex) · In-app browser · Unfollowing tracker" },
+        { "badge": "major", "text": "PIN protection · \"Follows You\" tag" }
+      ]
+    },
+    {
+      "version": "v4.0",
+      "badge": null,
+      "base": "shortcuts & mini",
+      "changes": [
+        { "badge": "add", "text": "Double-tap like on/off · Triple tap download · Long tap zoom" },
+        { "badge": "add", "text": "Disable swipe to camera/DM · Download own story with music" }
+      ],
+      "miniFeatures": [
+        "📋 Copy comments",
+        "👤 Copy user bio",
+        "🔗 Open comments links",
+        "🎶 Add music to stories",
+        "🎵 Music stickers"
+      ]
+    },
+    {
+      "version": "v3.5",
+      "badge": null,
+      "base": "UI refresh",
+      "changes": [
+        { "badge": "imp", "text": "UI overhaul · smoother transitions · better dark mode" },
+        { "badge": "add", "text": "Theme, font, and color customization options" },
+        { "badge": "fix", "text": "Various UI glitches · performance optimizations" }
+      ]
+    },
+    {
+      "version": "v3.0",
+      "badge": null,
+      "base": "stability update",
+      "changes": [
+        { "badge": "add", "text": "Advanced anti-ban protection · encryption improvements" },
+        { "badge": "imp", "text": "Memory usage -25% · faster filters · batch processing" },
+        { "badge": "fix", "text": "Many random crashes · stability enhancements" }
+      ]
+    },
+    {
+      "version": "v2.8",
+      "badge": null,
+      "base": "tools update",
+      "changes": [
+        { "badge": "new", "text": "Background remover · magic erase tool" },
+        { "badge": "add", "text": "Video trimming · 4K export · story templates" },
+        { "badge": "fix", "text": "Memory leak · export orientation bug · audio sync" }
+      ]
+    },
+    {
+      "version": "v2.5",
+      "badge": null,
+      "base": "creative update",
+      "changes": [
+        { "badge": "new", "text": "Collage templates (12) · remix tool · 20+ fonts" },
+        { "badge": "new", "text": "Layers & blending modes · animated stickers" },
+        { "badge": "imp", "text": "Gesture controls · color grading presets" }
+      ]
+    },
+    {
+      "version": "v2.2",
+      "badge": null,
+      "base": "text & overlays",
+      "changes": [
+        { "badge": "new", "text": "Text overlays · shadows · multi-track audio" },
+        { "badge": "add", "text": "Crop & rotate tools · filter pack vol.1" },
+        { "badge": "fix", "text": "Keyboard navigation · crash on low memory" }
+      ]
+    },
+    {
+      "version": "v2.0",
+      "badge": null,
+      "base": "collaboration",
+      "changes": [
+        { "badge": "major", "text": "Collaborative editing · redesigned timeline" },
+        { "badge": "imp", "text": "Performance boost · 60fps · UI refresh" },
+        { "badge": "fix", "text": "Various bugs · smoother transitions" }
+      ]
+    },
+    {
+      "version": "v1.8",
+      "badge": null,
+      "base": "core tools",
+      "changes": [
+        { "badge": "new", "text": "Crop & rotate tools · filter pack vol.1" },
+        { "badge": "fix", "text": "Crash on low memory · keyboard navigation" },
+        { "badge": "imp", "text": "Smoother transitions · performance optimizations" }
+      ]
+    },
+    {
+      "version": "v1.5",
+      "badge": null,
+      "base": "improvements",
+      "changes": [
+        { "badge": "imp", "text": "Smoother transitions · better gesture controls" },
+        { "badge": "fix", "text": "Various UI glitches · stability improvements" }
+      ]
+    },
+    {
+      "version": "v1.2",
+      "badge": null,
+      "base": "feature update",
+      "changes": [
+        { "badge": "new", "text": "Filter pack vol.1 · keyboard navigation" },
+        { "badge": "fix", "text": "Various bug fixes · performance improvements" }
+      ]
+    },
+    {
+      "version": "v1.0",
+      "badge": null,
+      "base": "initial release",
+      "changes": [
+        { "badge": "major", "text": "Original InstaFuse launch · core editor · foundation features" },
+        { "badge": "imp", "text": "Base architecture · security protocols established" }
+      ]
+    }
+  ]
+}
