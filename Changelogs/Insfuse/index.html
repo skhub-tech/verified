@@ -188,8 +188,6 @@
     }
 
     .version-card.latest {
-      border-color: transparent;
-      border-image: var(--ig-gradient) 1;
       background: var(--bg-card);
       box-shadow: 0 4px 20px rgba(225,48,108,0.08);
     }
@@ -287,7 +285,7 @@
     .change-badge.fix { background: rgba(108,117,125,0.1); color: #6c757d; border-color: rgba(108,117,125,0.15); }
     [data-theme="dark"] .change-badge.fix { background: rgba(160,160,160,0.15); color: #a0a0a0; }
     .change-badge.imp { background: rgba(25,135,84,0.1); color: #198754; border-color: rgba(25,135,84,0.15); }
-    [data-theme="dark"] .change-badge.imp { background: rgba(25,135,84,0.2); color: #4ade80; }
+    [data-theme="dark"] .change-badge.imp { background: rgba(25,135,84,0.2); color: #4ade807; }
     .change-badge.add { background: rgba(225,48,108,0.1); color: #E1306C; border-color: rgba(225,48,108,0.15); }
     [data-theme="dark"] .change-badge.add { background: rgba(225,48,108,0.2); color: #f472b6; }
     .change-badge.major { background: rgba(247,119,55,0.1); color: #F77737; border-color: rgba(247,119,55,0.15); }
@@ -449,7 +447,7 @@
 
   // ================================================================
   // 🏗️ RENDER ENGINE
-  // ================================================================
+  // =================================================================
 
   function renderChangelog(data) {
     const { appName, latestVersion, changelog } = data;
@@ -505,14 +503,14 @@
     const map = {
       'new': '✨ New',
       'add': '➕ Added',
-      'fix': '🛠️ Fixed',
-      'imp': '⚡ Improved',
+      'fix': '🛣️ Fixed',
+      'imp': '☡ Improved',
       'major': '⚠️ Major'
     };
     return map[type] || '🔹 Update';
   }
 
-  // ================================================================
+  // ===============================================================
   // 🚀 Start
   // ================================================================
 
