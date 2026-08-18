@@ -11,11 +11,9 @@
       --ig-orange: #F77737;
       --ig-yellow: #FCAF45;
       --ig-gradient: linear-gradient(135deg, #833AB4 0%, #E1306C 50%, #F77737 100%);
-      --ig-gradient-soft: linear-gradient(135deg, rgba(131,58,180,0.08) 0%, rgba(225,48,108,0.08) 50%, rgba(247,119,55,0.08) 100%);
 
       --bg: #fafafa;
       --bg-card: #ffffff;
-      --bg-card-hover: #f5f5f5;
       --text-primary: #0b0b0b;
       --text-secondary: #555;
       --text-muted: #999;
@@ -26,17 +24,13 @@
       --badge-bg: rgba(131,58,180,0.06);
       --base-bg: rgba(131,58,180,0.04);
       --footer-border: rgba(0,0,0,0.06);
-      --loading-color: #E1306C;
-      --error-color: #c0392b;
       --toggle-bg: #e9e9e9;
       --toggle-knob: #ffffff;
-      --toggle-active: var(--ig-gradient);
     }
 
     [data-theme="dark"] {
       --bg: #121212;
       --bg-card: #1e1e1e;
-      --bg-card-hover: #262626;
       --text-primary: #f0f0f0;
       --text-secondary: #a0a0a0;
       --text-muted: #666;
@@ -47,7 +41,6 @@
       --badge-bg: rgba(255,255,255,0.04);
       --base-bg: rgba(255,255,255,0.03);
       --footer-border: rgba(255,255,255,0.06);
-      --loading-color: #F77737;
       --toggle-bg: #333;
       --toggle-knob: #888;
     }
@@ -188,8 +181,6 @@
     }
 
     .version-card.latest {
-      border-color: transparent;
-      border-image: var(--ig-gradient) 1;
       background: var(--bg-card);
       box-shadow: 0 4px 20px rgba(225,48,108,0.08);
     }
@@ -319,7 +310,7 @@
       border: 1px solid var(--border);
     }
 
-/* ===== Footer ===== */
+    /* ===== Footer ===== */
     .changelog-footer {
       margin-top: 28px;
       text-align: center;
@@ -337,15 +328,6 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       font-weight: 600;
-    }
-
-    /* ===== Loading ===== */
-    .loading {
-      text-align: center;
-      padding: 40px 20px;
-      color: var(--loading-color);
-      font-size: 16px;
-      font-weight: 500;
     }
 
     /* ===== Responsive ===== */
@@ -378,16 +360,14 @@
       <span class="app-title" id="appTitle">InstaFuse</span>
     </div>
     <div class="header-right">
-      <span class="version-badge" id="latestBadge">Loading...</span>
+      <span class="version-badge" id="latestBadge">v5.4 · latest</span>
       <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
         <div class="toggle-knob" id="toggleKnob">🌙</div>
       </div>
     </div>
   </div>
 
-  <div id="versionList">
-    <div class="loading">⏳ Loading changelog...</div>
-  </div>
+  <div id="versionList"></div>
 
   <div class="changelog-footer">
     <span>InstaFuse</span> · changelog · built for webview
@@ -396,113 +376,85 @@
 
 <script>
   // ================================================================
+  // 📦 INLINE DATA — no fetch needed, works offline in WebView
+  // ================================================================
+
+  var CHANGELOG_DATA = {
+    "appName": "InstaFuse",
+    "latestVersion": "v5.4",
+    "changelog": [
+      {
+        "version": "v5.4",
+        "badge": "latest",
+        "base": "Base 439.0.0.38.89",
+        "changes": [
+          { "badge": "new", "text": "Custom Story Font · Image in comments" },
+          { "badge": "add", "text": "Profile Post Download Button · Hidden features unlocked" },
+          { "badge": "fix", "text": "AutoScroll · many random crashes · misc improvements" }
+        ]
+      },
+      {
+        "version": "v5.3",
+        "badge": null,
+        "base": "Base 435.0.0.37.76",
+        "changes": [
+          { "badge": "major", "text": "Must uninstall your old InstaFuse before installing this update" },
+          { "badge": "new", "text": "Updated Instagram base to v435.0.0.37.76 · Added all the latest Instagram features" },
+          { "badge": "add", "text": "Follow indicator — see who follows you or not in following/followers list" },
+          { "badge": "add", "text": "Personal Jinn in your inbox" },
+          { "badge": "add", "text": "Voice Changer feature" },
+          { "badge": "add", "text": "Download History" },
+          { "badge": "add", "text": "More stylish fonts" },
+          { "badge": "fix", "text": "Calling issues and the \"Unsupported Calling\" message" },
+          { "badge": "fix", "text": "Reels video lag and stuttering" },
+          { "badge": "fix", "text": "Dark overlay issues on some videos" },
+          { "badge": "imp", "text": "Performance optimizations and stability improvements" },
+          { "badge": "fix", "text": "Many bug fixes and overall enhancements" }
+        ]
+      }
+    ]
+  };
+
+  // ================================================================
   // 🌗 Theme Management
   // ================================================================
 
   function toggleTheme() {
-    const body = document.body;
-    const toggle = document.getElementById('themeToggle');
-    const knob = document.getElementById('toggleKnob');
+    var body = document.body;
+    var toggle = document.getElementById('themeToggle');
+    var knob = document.getElementById('toggleKnob');
 
     if (body.getAttribute('data-theme') === 'dark') {
       body.removeAttribute('data-theme');
       toggle.classList.remove('active');
       knob.textContent = '🌙';
-      localStorage.setItem('instafuse-theme', 'light');
+      try { localStorage.setItem('instafuse-theme', 'light'); } catch(e) {}
     } else {
       body.setAttribute('data-theme', 'dark');
       toggle.classList.add('active');
       knob.textContent = '☀️';
-      localStorage.setItem('instafuse-theme', 'dark');
+      try { localStorage.setItem('instafuse-theme', 'dark'); } catch(e) {}
     }
   }
 
   // Restore saved theme
   (function initTheme() {
-    const saved = localStorage.getItem('instafuse-theme');
-    if (saved === 'dark') {
-      document.body.setAttribute('data-theme', 'dark');
-      document.getElementById('themeToggle').classList.add('active');
-      document.getElementById('toggleKnob').textContent = '☀️';
-    }
-  })();
-
-  // ================================================================
-  // 📦 FETCH DATA from external JSON file
-  // ================================================================
-
-  async function loadChangelog() {
     try {
-      const response = await fetch('changelog.json');
-      if (!response.ok) throw new Error('Failed to load changelog.json');
-      const data = await response.json();
-      renderChangelog(data);
-    } catch (error) {
-      console.error('Error loading changelog:', error);
-      document.getElementById('versionList').innerHTML = `
-        <div class="loading" style="color:var(--error-color);">
-          ❌ Failed to load changelog. Please check the JSON file.
-        </div>
-      `;
-    }
-  }
+      var saved = localStorage.getItem('instafuse-theme');
+      if (saved === 'dark') {
+        document.body.setAttribute('data-theme', 'dark');
+        document.getElementById('themeToggle').classList.add('active');
+        document.getElementById('toggleKnob').textContent = '☀️';
+      }
+    } catch(e) {}
+  })();
 
   // ================================================================
   // 🏗️ RENDER ENGINE
   // ================================================================
 
-  function renderChangelog(data) {
-    const { appName, latestVersion, changelog } = data;
-
-    document.getElementById('appTitle').textContent = appName;
-    document.getElementById('latestBadge').textContent = `${latestVersion} · latest`;
-
-    const container = document.getElementById('versionList');
-    let html = '';
-
-    changelog.forEach((entry) => {
-      const isLatest = entry.badge === 'latest';
-      const cardClass = isLatest ? 'version-card latest' : 'version-card';
-      const badgeHtml = entry.badge ? `<small>${entry.badge}</small>` : '';
-      const baseHtml = entry.base ? `<span class="version-base">${entry.base}</span>` : '';
-
-      let changesHtml = '';
-      if (entry.changes && entry.changes.length) {
-        entry.changes.forEach((change) => {
-          const badgeClass = change.badge || 'add';
-          changesHtml += `
-            <div class="change-group">
-              <span class="change-badge ${badgeClass}">${getBadgeLabel(change.badge)}</span>
-              <span class="change-text">${change.text}</span>
-            </div>
-          `;
-        });
-      }
-
-      let miniHtml = '';
-      if (entry.miniFeatures && entry.miniFeatures.length) {
-        miniHtml = `<div class="mini-features">${entry.miniFeatures.map(f => `<span>${f}</span>`).join('')}</div>`;
-      }
-
-      html += `
-        <div class="${cardClass}">
-          <div class="version-head">
-            <span class="version-tag">${entry.version} ${badgeHtml}</span>
-            ${baseHtml}
-          </div>
-          <div class="version-details">
-            ${changesHtml}
-            ${miniHtml}
-          </div>
-        </div>
-      `;
-    });
-
-    container.innerHTML = html;
-  }
-
   function getBadgeLabel(type) {
-    const map = {
+    var map = {
       'new': '✨ New',
       'add': '➕ Added',
       'fix': '🛠️ Fixed',
@@ -512,11 +464,62 @@
     return map[type] || '🔹 Update';
   }
 
+  function renderChangelog(data) {
+    var appName = data.appName;
+    var latestVersion = data.latestVersion;
+    var changelog = data.changelog;
+
+    document.getElementById('appTitle').textContent = appName;
+    document.getElementById('latestBadge').textContent = latestVersion + ' · latest';
+
+    var container = document.getElementById('versionList');
+    var html = '';
+
+    for (var i = 0; i < changelog.length; i++) {
+      var entry = changelog[i];
+      var isLatest = entry.badge === 'latest';
+      var cardClass = isLatest ? 'version-card latest' : 'version-card';
+      var badgeHtml = entry.badge ? '<small>' + entry.badge + '</small>' : '';
+      var baseHtml = entry.base ? '<span class="version-base">' + entry.base + '</span>' : '';
+
+      var changesHtml = '';
+      if (entry.changes && entry.changes.length) {
+        for (var j = 0; j < entry.changes.length; j++) {
+          var change = entry.changes[j];
+          var badgeClass = change.badge || 'add';
+          changesHtml += '<div class="change-group">' +
+            '<span class="change-badge ' + badgeClass + '">' + getBadgeLabel(change.badge) + '</span>' +
+            '<span class="change-text">' + change.text + '</span>' +
+            '</div>';
+        }
+      }
+
+      var miniHtml = '';
+      if (entry.miniFeatures && entry.miniFeatures.length) {
+        var miniSpans = '';
+        for (var k = 0; k < entry.miniFeatures.length; k++) {
+          miniSpans += '<span>' + entry.miniFeatures[k] + '</span>';
+        }
+        miniHtml = '<div class="mini-features">' + miniSpans + '</div>';
+      }
+
+      html += '<div class="' + cardClass + '">' +
+        '<div class="version-head">' +
+        '<span class="version-tag">' + entry.version + ' ' + badgeHtml + '</span>' +
+        baseHtml +
+        '</div>' +
+        '<div class="version-details">' + changesHtml + miniHtml + '</div>' +
+        '</div>';
+    }
+
+    container.innerHTML = html;
+  }
+
   // ================================================================
-  // 🚀 Start
+  // 🚀 Render immediately — no fetch, no loading screen
   // ================================================================
 
-  document.addEventListener('DOMContentLoaded', loadChangelog);
+  renderChangelog(CHANGELOG_DATA);
 </script>
 </body>
 </html>
