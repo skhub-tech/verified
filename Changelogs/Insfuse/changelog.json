@@ -16,8 +16,24 @@
           "text": "Profile Post Download Button · Hidden features unlocked"
         },
         {
+          "badge": "add",
+          "text": "Quick toggle to enable or disable Read Messages by long-pressing the message icon"
+        },
+        {
+          "badge": "imp",
+          "text": "Redesigned Follow Indicator on profiles"
+        },
+        {
+          "badge": "imp",
+          "text": "New Follow Indicator UI in Followers and Following lists"
+        },
+        {
           "badge": "fix",
-          "text": "AutoScroll · many random crashes · misc improvements"
+          "text": "Fixed AutoScroll, random crashes, and many other issues"
+        },
+        {
+          "badge": "fix",
+          "text": "Many more fixes and stability improvements"
         }
       ]
     },
@@ -28,7 +44,7 @@
       "changes": [
         {
           "badge": "major",
-           "text": "Must uninstall your old InstaFuse before installing this update"
+          "text": "Must uninstall your old InstaFuse before installing this update"
         },
         {
           "badge": "new",
