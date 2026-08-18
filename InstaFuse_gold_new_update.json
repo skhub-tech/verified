@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 3,
-  "latestVersionName": "5.3",
+  "latestVersionCode": 4,
+  "latestVersionName": "5.4",
   "whatsNew": {
-    "en": "🚨⚠️ Must uninstall your old InstaFuse before installing this update!\n\n✨ Updated Instagram base to version 435.0.0.37.76\n🆕 Added all the latest Instagram features\n➕ Added Follow Indicator to see who follows you back in Following and Followers lists\n➕ Added Personal Jinn in your inbox\n🎙️ Added Voice Changer feature\n📥 Added Download History\n🔤 Added more stylish fonts\n📞 Fixed calling issues and the \"Unsupported Calling\" message\n🎥 Fixed Reels video lag and stuttering issues\n🌙 Fixed dark overlay issues on some videos\n⚡ Performance optimizations and stability improvements\n🛠️ Many bug fixes and overall enhancements\n\n📥 Download link:\nhttps://InstaFuse.vercel.app\n\n#instafuse #instamax #instapro #instagold"
+    "en": "🚨⚠️ Must uninstall your old InstaFuse before installing this update!\n\n✨ Updated Instagram base to version 439.0.0.38.89\n🆕 Added the latest Instagram features\n🆕 Added Custom Story Fonts and Images in Comments\n➕ Added Profile Post Download Button\n🔓 Unlocked hidden features\n💬 Added a quick Read Messages toggle — long-press the message icon to enable or disable it\n👤 Redesigned Follow Indicator on profiles\n➕ Added a new Follow Indicator UI for Followers and Following lists\n🎙️ Added Voice Changer feature\n📥 Added Download History\n🔤 Added more stylish fonts\n🛠️ Fixed AutoScroll and many random crashes\n⚡ Improved performance and stability\n🔧 Many more bug fixes and improvements\n\n📥 Download link:\nhttps://InstaFuse.vercel.app\n\n#instafuse #instamax #instapro #instagold"
   },
   "downloadUrl": "https://InstaFuse.vercel.app",
   "forceUpdate": false,
