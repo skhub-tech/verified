@@ -1,3 +1,3 @@
 {"version":02,
-"downloadLink":"https://example.com/app.apk",
-"changelog":"- Bug fixes\n- New features\n- Performance improvements"}
+"downloadLink":"https://instafuse.vercel.app",
+"changelog":"- Added Custom Story Fonts and Images in Comments\n- Added Profile Post Download Button and unlocked hidden features\n- Added quick Read Messages toggle by long-pressing the message icon\n- Redesigned Follow Indicator on profiles\n- Added new Follow Indicator UI for Followers and Following lists\n- Fixed AutoScroll and many random crashes\n- Improved performance and stability\n- Many more bug fixes and improvements"
