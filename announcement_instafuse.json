@@ -1,11 +1,13 @@
 {
   "show": true,
+  "force_show": true,
   "show_count": -1,
-  "interval_hours": 0,
+  "interval_hours": 12,
+  "interval_minutes": 0,
   "title": "InstaFuse Community",
-  "badge": "COMMUNITY",
-  "description": "Join our official Telegram community for daily mod updates!",
-  "button_text": "Join Now",
+  "badge": "OFFICIAL UPDATE",
+  "description": "Join our official Telegram community for daily mod updates, new themes, and direct developer support!",
+  "button_text": "Join Telegram",
   "button_url": "https://t.me/InstaFuse",
   "dismiss_text": "Later",
   "cancelable": true
