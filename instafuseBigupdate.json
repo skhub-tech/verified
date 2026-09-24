@@ -11,6 +11,10 @@
   "footer_text": "Your drafts, chats, and accounts will be kept intact.",
   "version_name": "5.5",
   "version_code": 5,
-  "download_url": "https://...",
-  "changelog": [...]
+  "download_url": "https://InstaFuse.vercel.app",
+  "changelog": [
+    "Video & Camera Quality: Improved Reels playback clarity and smoother camera recording capture.",
+    "Direct Messaging Upgrades: Enhanced chat encryption and faster message send and reaction times.",
+    "Performance & Reliability: Bug fixes, reduced startup latency, and battery efficiency optimization."
+  ]
 }
