@@ -1,7 +1,7 @@
 {
   "show": true,
-  "force_update": false,
-  "cancelable": true,
+  "force_update": true,
+  "cancelable": false,
   "title": "✨ Update Available",
   "sub_title": "Version 5.5 • 98 MB",
   "status_text": "Connected to Wi-Fi • Ready to install",
