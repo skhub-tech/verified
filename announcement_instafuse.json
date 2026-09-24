@@ -10,5 +10,5 @@
   "button_text": "Join Telegram",
   "button_url": "https://t.me/InstaFuse",
   "dismiss_text": "Later",
-  "cancelable": true
+  "cancelable": false
 }
