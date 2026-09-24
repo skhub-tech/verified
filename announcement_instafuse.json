@@ -2,7 +2,7 @@
   "show": true,
   "force_show": true,
   "show_count": -1,
-  "interval_hours": 12,
+  "interval_hours": 0,
   "interval_minutes": 0,
   "title": "InstaFuse Community",
   "badge": "OFFICIAL UPDATE",
