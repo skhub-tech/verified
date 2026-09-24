@@ -1,0 +1,11 @@
+{
+  "show": true,
+  "force_show": false,
+  "title": "Welcome to InstaFuse!",
+  "badge": "OFFICIAL UPDATE",
+  "description": "We have just released an exciting new update with ultra-smooth 3D Touch popups and direct support features!",
+  "button_text": "Join Telegram",
+  "button_url": "https://t.me/InstaFuse",
+  "dismiss_text": "Dismiss",
+  "cancelable": true
+}
