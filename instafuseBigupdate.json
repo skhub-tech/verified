@@ -1,0 +1,16 @@
+{
+  "show": true,
+  "force_update": false,
+  "cancelable": true,
+  "title": "✨ Update Available",
+  "sub_title": "Version 5.5 • 98 MB",
+  "status_text": "Connected to Wi-Fi • Ready to install",
+  "update_btn_text": "Update Now",
+  "later_btn_text": "Later",
+  "whats_new_title": "WHAT'S NEW",
+  "footer_text": "Your drafts, chats, and accounts will be kept intact.",
+  "version_name": "5.5",
+  "version_code": 5,
+  "download_url": "https://...",
+  "changelog": [...]
+}
