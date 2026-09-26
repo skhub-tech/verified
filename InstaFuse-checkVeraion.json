@@ -1,3 +1,5 @@
-{"version":03,
-"downloadLink":"https://instafuse.vercel.app",
-"changelog":"- Added Custom Story Fonts and Images in Comments\n-Fixed random crashes\n- Added Profile Post Download Button and unlocked hidden features\n- Added quick Read Messages toggle by long-pressing the message icon\n- Redesigned Follow Indicator on profiles\n- Added new Follow Indicator UI for Followers and Following lists\n- Fixed AutoScroll and many random crashes\n- Improved performance and stability\n- Many more bug fixes and improvements"
+{
+  "version": 05,
+  "downloadLink": "https://instafuse.vercel.app",
+  "changelog": "- Added Liquid Glass Bottom Tab Bar\n- Added Liquid Glass Customisation\n- Liquid Glass is available on Android 13+ only\n- Added Call Recording for audio calls\n- Added Custom Story Audio from local storage\n- Added Online Toast when friends come online\n- Added Follow Indicator for Followers and Following lists\n- Added Advanced Custom Story Fonts with Bulk Font Download\n- Added Saved Copies for bios, comments, captions and more\n- Added New InstaFuse Settings Design\n- Added Settings Search\n- Added Experimental Settings\n- Added Quick Access to InstaFuse Settings from profile\n- Updated app base to 439.0.0.37.89\n- Improved performance and stability\n- Many more bug fixes and improvements"
+}
