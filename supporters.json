@@ -4,27 +4,27 @@
   "message": "Huge thanks to all creators and supporters featuring InstaFuse, sharing guides, and supporting our community! Tap any supporter below to visit.",
   "supporters": [
     {
-      "name": "Sahitya Tech",
+      "name": "@renatacillas",
       "description": "Official YouTube Channel • Mod Updates & Tutorials",
-      "url": "https://www.youtube.com/@sahitya_000",
+      "url": "https://youtube.com/@renatacillas",
       "verified": true
     },
     {
-      "name": "InstaFuse Channel",
-      "description": "Official Telegram Channel • Releases & Downloads",
-      "url": "https://t.me/InstaFuse",
+      "name": "@FlaviaKelly",
+      "description": "Official YouTube Channel • Mod Updates & Tutorials",
+      "url": "https://youtube.com/@flaviakelly",
       "verified": true
     },
     {
-      "name": "Sahitya Kanojiya",
-      "description": "Developer Instagram Profile",
-      "url": "https://www.instagram.com/sahitya_000",
+      "name": "@poxahraissa",
+      "description": "Official YouTube Channel • Mod Updates & Tutorials",
+      "url": "https://youtube.com/@poxahraissa",
       "verified": true
     },
     {
-      "name": "Official Website",
-      "description": "Latest Features & Downloads",
-      "url": "https://instafuse.app",
+      "name": "@Atualizatutoriais",
+      "description": "Official YouTube Channel • Mod Updates & Tutorials",
+      "url": "https://youtube.com/@atualizatutoriais",
       "verified": false
     }
   ]
