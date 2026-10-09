@@ -1,7 +1,7 @@
 {
   "show": true,
-  "force_update": true,
-  "cancelable": true,
+  "force_update": false,
+  "cancelable": false,
   "title": "✨ Update Available",
   "sub_title": "Version 5.6",
   "status_text": "Connected to Wi-Fi • Ready to install",
