@@ -13,19 +13,19 @@
   "version_code": 5,
   "download_url": "https://InstaFuse.vercel.app",
   "changelog": [
-    "Updated app base to 439.0.0.37.89",
-    "Added Liquid Glass Bottom Tab Bar (beta stage)",
-    "Added Liquid Glass Customisation",
-    "Liquid Glass is available on Android 13+ only",
-    "Added Call Recording for audio calls",
-    "Added Custom Story Audio — pick any audio or music directly from your local storage",
-    "Added Online Toast — get a popup when your friend comes online",
-    "Added Follow Indicator in Followers and Following lists, so you can easily see who follows you without opening their profile",
-    "Added Advanced Custom Story Fonts",
-    "Added Bulk Font Download for story fonts",
-    "Added Saved Copies in Quick Menu and Settings — check your copied bios, comments, captions, and more",
-    "Added a New InstaFuse Settings Design",
-    "Added Settings Search to quickly find InstaFuse settings",
-    "Added Experimental Settings"
+    "App Base Update: Updated app base to 439.0.0.37.89 for better stability and latest features.",
+    "Liquid Glass Tab Bar: Added a new Liquid Glass Bottom Tab Bar (beta stage) for a modern look.",
+    "Liquid Glass Customisation: Personalize the Liquid Glass appearance to match your style.",
+    "Android Compatibility: Liquid Glass is available on Android 13 and above only.",
+    "Call Recording: Added Call Recording support for audio calls.",
+    "Custom Story Audio: Pick any audio or music directly from your local storage for stories.",
+    "Online Toast: Get a popup notification when your friend comes online.",
+    "Follow Indicator: See who follows you directly in Followers and Following lists without opening profiles.",
+    "Advanced Story Fonts: Added Advanced Custom Story Fonts for more creative stories.",
+    "Bulk Font Download: Download multiple story fonts at once with Bulk Font Download.",
+    "Saved Copies: Check your copied bios, comments, captions, and more from Quick Menu and Settings.",
+    "New Settings Design: Added a redesigned InstaFuse Settings interface.",
+    "Settings Search: Quickly find any InstaFuse setting with the new search option.",
+    "Experimental Settings: Added Experimental Settings for testing upcoming features."
   ]
 }
