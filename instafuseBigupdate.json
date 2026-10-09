@@ -13,8 +13,19 @@
   "version_code": 5,
   "download_url": "https://InstaFuse.vercel.app",
   "changelog": [
-    "Video & Camera Quality: Improved Reels playback clarity and smoother camera recording capture.",
-    "Direct Messaging Upgrades: Enhanced chat encryption and faster message send and reaction times.",
-    "Performance & Reliability: Bug fixes, reduced startup latency, and battery efficiency optimization."
+    "Updated app base to 439.0.0.37.89",
+    "Added Liquid Glass Bottom Tab Bar (beta stage)",
+    "Added Liquid Glass Customisation",
+    "Liquid Glass is available on Android 13+ only",
+    "Added Call Recording for audio calls",
+    "Added Custom Story Audio — pick any audio or music directly from your local storage",
+    "Added Online Toast — get a popup when your friend comes online",
+    "Added Follow Indicator in Followers and Following lists, so you can easily see who follows you without opening their profile",
+    "Added Advanced Custom Story Fonts",
+    "Added Bulk Font Download for story fonts",
+    "Added Saved Copies in Quick Menu and Settings — check your copied bios, comments, captions, and more",
+    "Added a New InstaFuse Settings Design",
+    "Added Settings Search to quickly find InstaFuse settings",
+    "Added Experimental Settings"
   ]
 }
