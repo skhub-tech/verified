@@ -1,49 +1,23 @@
 {
   "enabled": true,
-  "checkIntervalHours": 6.0,
-  "showAgainAfterHours": 12.0,
-  "showOnLaunch": false,
+  "versionCode": 1,
+  "versionName": "1.0",
+  "title": "Insta Air Update",
+  "message": "You are on the latest version of Insta Air.",
+  "changelog": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control",
+  "downloadUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
+  "webUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
+  "forceUpdate": false,
   "stable": {
     "enabled": true,
+    "versionCode": 1,
     "goldUpdateCode": 1,
     "versionName": "1.0",
-    "minSupportedGoldUpdateCode": 1,
-    "title": "Insta Air v1.0",
-    "titleEn": "Insta Air v1.0",
+    "title": "Insta Air Update",
     "message": "You are on the latest version of Insta Air.",
-    "messageEn": "You are on the latest version of Insta Air.",
     "changelog": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control",
-    "changelogEn": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control",
-    "publishedAt": "2026-10-30",
-    "forceUpdate": false,
     "downloadUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
     "webUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
-    "packages": {
-      "com.aginsta.android": {
-        "downloadUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
-        "webUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir"
-      }
-    }
-  },
-  "beta": {
-    "enabled": false
-  },
-  "version_name": "1.0",
-  "version_code": 1,
-  "show": false,
-  "force_update": false,
-  "title": "Insta Air Update",
-  "sub_title": "Version 1.0",
-  "status_text": "Up to date",
-  "update_btn_text": "Download",
-  "later_btn_text": "Later",
-  "whats_new_title": "WHAT'S NEW",
-  "footer_text": "Your drafts, chats, and accounts will be kept intact.",
-  "download_url": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
-  "changelog": [
-    "Custom Story Fonts: Unlimited TTF/OTF custom fonts with bulk download.",
-    "Application Fonts & Emojis: Custom iOS, Samsung, OneUI emoji packs.",
-    "Redesigned About Screen: Lead developers, team, supporters, diagnostics.",
-    "Reels Pinch Zoom: Disabled by default and respects toggle state."
-  ]
+    "forceUpdate": false
+  }
 }
