@@ -21,29 +21,6 @@
           "title": "GitHub"
         }
       ]
-    },
-    {
-      "id": "ravi",
-      "name": "Ravi Varma",
-      "role": "Lead Core & Engine Developer",
-      "socials": [
-        {
-          "type": "instagram",
-          "url": "https://instagram.com/ravivarma",
-          "title": "Instagram"
-        },
-        {
-          "type": "telegram",
-          "url": "https://t.me/ravivarma",
-          "title": "Telegram"
-        },
-        {
-          "type": "github",
-          "url": "https://github.com/RaviVarma",
-          "title": "GitHub"
-        }
-      ]
     }
   ]
 }
-

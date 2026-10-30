@@ -16,21 +16,6 @@
       ]
     },
     {
-      "name": "Ravi Varma",
-      "links": [
-        {
-          "type": "telegram",
-          "url": "https://t.me/ravivarma",
-          "title": "Telegram"
-        },
-        {
-          "type": "github",
-          "url": "https://github.com/RaviVarma",
-          "title": "GitHub"
-        }
-      ]
-    },
-    {
       "name": "Insta Air Community",
       "links": [
         {
@@ -47,4 +32,3 @@
     }
   ]
 }
-
