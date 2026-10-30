@@ -1,0 +1,49 @@
+{
+  "team": [
+    {
+      "name": "Sahitya Kanojiya",
+      "links": [
+        {
+          "type": "telegram",
+          "url": "https://t.me/Sahiitya",
+          "title": "Telegram"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/Sahiitya",
+          "title": "GitHub"
+        }
+      ]
+    },
+    {
+      "name": "Ravi Varma",
+      "links": [
+        {
+          "type": "telegram",
+          "url": "https://t.me/ravivarma",
+          "title": "Telegram"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/RaviVarma",
+          "title": "GitHub"
+        }
+      ]
+    },
+    {
+      "name": "Insta Air Community",
+      "links": [
+        {
+          "type": "telegram",
+          "url": "https://t.me/keyprimeofficials",
+          "title": "Community Group"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/keyprimeofficial",
+          "title": "Official Channel"
+        }
+      ]
+    }
+  ]
+}

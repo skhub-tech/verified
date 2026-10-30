@@ -1,0 +1,48 @@
+{
+  "title": "Supporters",
+  "subtitle": "Community Creators & Partners",
+  "message": "Huge thanks to all creators and supporters featuring Insta Air, sharing guides, and supporting our community!",
+  "supporters": [
+    {
+      "name": "Sponsors & Content Creators",
+      "role": "Featured Creator & Community Backer",
+      "description": "Showcasing Insta Air customizations, fonts, and updates.",
+      "youtube": "https://www.youtube.com",
+      "youtube_name": "Creator Channel",
+      "url": "https://www.youtube.com",
+      "verified": true,
+      "socials": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com",
+          "title": "YouTube Channel"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/keyprimeofficials",
+          "title": "Telegram"
+        }
+      ]
+    },
+    {
+      "name": "Community Contributors",
+      "role": "Beta Testers & Font Creators",
+      "description": "Active community contributors helping test features and provide custom fonts.",
+      "youtube": null,
+      "url": "https://t.me/keyprimeofficials",
+      "verified": true,
+      "socials": [
+        {
+          "type": "telegram",
+          "url": "https://t.me/keyprimeofficials",
+          "title": "Community"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/skhub-tech/verified",
+          "title": "GitHub"
+        }
+      ]
+    }
+  ]
+}
