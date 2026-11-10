@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "versionCode": 1,
-  "versionName": "1.0",
+  "versionCode": 2,
+  "versionName": "1.2",
   "title": "Insta Air Update",
   "message": "You are on the latest version of Insta Air.",
   "changelog": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control",
@@ -10,9 +10,9 @@
   "forceUpdate": false,
   "stable": {
     "enabled": true,
-    "versionCode": 1,
-    "goldUpdateCode": 1,
-    "versionName": "1.0",
+    "versionCode": 2,
+    "goldUpdateCode": 2,
+    "versionName": "1.2",
     "title": "Insta Air Update",
     "message": "You are on the latest version of Insta Air.",
     "changelog": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control",
