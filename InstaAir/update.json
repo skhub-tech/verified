@@ -7,7 +7,7 @@
   "webUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
   "downloadUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
   "webButtonText": "Download from website",
-  "showTime": false,
+  "showTime": true,
   "checkIntervalHours": 0.0,
   "ota": false,
   "forceUpdate": false
