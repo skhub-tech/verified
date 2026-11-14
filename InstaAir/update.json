@@ -2,22 +2,10 @@
   "enabled": true,
   "versionCode": 2,
   "versionName": "1.2",
-  "title": "Insta Air Update",
-  "message": "You are on the latest version of Insta Air.",
-  "changelog": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control",
-  "downloadUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
+  "title": "New InstaAir update",
+  "changelog": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control\n• Liquid Glass UI & Toggle Improvements\n• Fixed Theme Dialog & Fonts UI",
   "webUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
-  "forceUpdate": false,
-  "stable": {
-    "enabled": true,
-    "versionCode": 2,
-    "goldUpdateCode": 2,
-    "versionName": "1.2",
-    "title": "Insta Air Update",
-    "message": "You are on the latest version of Insta Air.",
-    "changelog": "• Custom Story Fonts with bulk download\n• Application Fonts and Custom Emojis\n• Redesigned About Screen & Diagnostics\n• Reels Pinch Zoom Control",
-    "downloadUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
-    "webUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
-    "forceUpdate": false
-  }
+  "downloadUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
+  "ota": false,
+  "forceUpdate": false
 }
