@@ -1,0 +1,31 @@
+{
+  "title": "Special Thanks",
+  "subtitle": "Key Contributors & Community Testers",
+  "message": "Special gratitude to researchers and contributors who help test and protect Insta Air.",
+  "thanks": [
+    {
+      "name": "Ravi Varma",
+      "role": "Security Researcher & Anti-Ban Specialist",
+      "description": "Special thanks to Ravi Varma for his valuable help in security research and anti-ban protections in Insta Air, keeping users safe.",
+      "socials": [
+        {
+          "type": "telegram",
+          "url": "https://t.me/instaairofficial",
+          "title": "Telegram"
+        }
+      ]
+    },
+    {
+      "name": "Beta Testers & Community",
+      "role": "Insta Air Testing Squad",
+      "description": "Heartfelt gratitude to our dedicated community testers and feedback providers who test each beta build diligently.",
+      "socials": [
+        {
+          "type": "telegram",
+          "url": "https://t.me/instaairgroup",
+          "title": "Community"
+        }
+      ]
+    }
+  ]
+}
