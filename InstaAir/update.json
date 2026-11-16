@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "versionCode": 2,
-  "versionName": "1.2",
+  "versionCode": 1,
+  "versionName": "1.0",
   "title": "InstaAir update",
   "changelog": "\u2022 Custom Story Fonts with bulk download\n\u2022 Application Fonts and Custom Emojis\n\u2022 Redesigned About Screen & Diagnostics\n\u2022 Reels Pinch Zoom Control\n\u2022 Liquid Glass UI & Toggle Improvements\n\u2022 Fixed Theme Dialog & Fonts UI",
   "webUrl": "https://github.com/skhub-tech/verified/tree/main/InstaAir",
