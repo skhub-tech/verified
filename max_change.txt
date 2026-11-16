@@ -1,11 +1,25 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ What's New in 15.0✨
+✨ What's New in Version 15.0 ✨
 
-🗓️date: 01/01/26
-Base 408.0.0.51.78
-💥 Happy New year 🎊 
-🔨 custom fonts and emojies fixed!
-🔨fixed theme changing issues 
-☘️Added inbuilt video splitter 
-🔨fixed crash or not opening in android 10,11,12,13 to 15+ 
-👾fixed update showing dialogue ✅
+🗓️ Date: 17/11/2026
+📦 Base: 451.0.0.53.80
+
+🎉 A New Beginning with InstaAir! 🚀
+
+InstaMax has been discontinued. We have now introduced InstaAir – a fresh, more powerful, and more stable app with a better experience.
+
+We recommend all existing InstaMax users to switch to InstaAir and enjoy the new experience! ❤️
+
+✨ What's New:
+
+🔨 Fixed custom fonts and emojis.
+🔨 Fixed theme-changing issues.
+☘️ Added an inbuilt Video Splitter.
+🔨 Fixed crashes and app opening issues on Android 10, 11, 12, 13, 14 and 15+.
+👾 Fixed the update notification dialogue.
+
+💙 Thank you for supporting InstaMax. Now it's time to move forward with InstaAir!
+
+🚀 Switch to InstaAir and enjoy the new experience!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━
